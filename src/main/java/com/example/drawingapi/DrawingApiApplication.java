@@ -10,7 +10,8 @@ import java.io.IOException;
 public class DrawingApiApplication {
     static Draw draw = new Draw();
     public static void main(String[] args) throws IOException {
-        draw.draw();
+        SpringApplication.run(DrawingApiApplication.class, args);
+
     }
 
 }
